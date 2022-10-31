@@ -1,4 +1,3 @@
-import Navbar from '../Navbar/Navbar'
 import MainSection from '../MainSection/MainSection'
 import ProductList from '../Products/ProductList'
 import Footer from '../Footer/Footer'
@@ -6,7 +5,7 @@ import Footer from '../Footer/Footer'
 const LandingPage = () => {
     return (
         <div style={{ width: '100%' }}>
-            <Navbar />
+            {/* <Navbar /> */}
             <MainSection />
             <ProductList />
             <Footer />

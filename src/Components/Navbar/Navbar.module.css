@@ -34,9 +34,8 @@
   text-align: center;
   letter-spacing: 0.2px;
   cursor: pointer;
-  color: #737373;
 }
-.logoContainer ul li:hover {
+.logoContainer ul li a:hover {
   color: black;
   transition: all 0.5s;
 }
@@ -58,8 +57,14 @@
   gap: 5px;
 }
 .iconContainer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+.navbar ul li a.active{
+  color: black;
+}
+.navbar ul li a{
+  color: #737373;
 }

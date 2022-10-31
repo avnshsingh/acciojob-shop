@@ -6,6 +6,7 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { useSelector, useDispatch } from 'react-redux';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     
@@ -19,12 +20,12 @@ const Navbar = () => {
                 </div>
                 <div>
                     <ul>
-                        <li>Home</li>
-                        <li>Shop</li>
-                        <li>About</li>
-                        <li>Blog</li>
-                        <li>Contact</li>
-                        <li>Pages</li>
+                        <li><NavLink activeClassName={classes.active} to='/home'>Home</NavLink></li>
+                        <li><NavLink activeClassName={classes.active} to='/shop'>Shop</NavLink></li>
+                        <li><NavLink activeClassName={classes.active} to='/about'>About</NavLink></li>
+                        <li><NavLink activeClassName={classes.active} to='/blog'>Blog</NavLink></li>
+                        <li><NavLink activeClassName={classes.active} to='/contact'>Contact</NavLink></li>
+                        <li><NavLink activeClassName={classes.active} to='/pages'>Pages</NavLink></li>
                     </ul>
                 </div>
             </div>
