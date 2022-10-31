@@ -1,0 +1,65 @@
+.navbar {
+  padding: 13px 38px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoContainer {
+  width: 50%;
+  max-width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoContainer h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.logoContainer ul {
+  list-style: none;
+}
+.logoContainer ul li {
+  margin-left: 21px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  color: #737373;
+}
+.logoContainer ul li:hover {
+  color: black;
+  transition: all 0.5s;
+}
+.navbar a {
+  color: #23a6f0;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+.loginContainer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  align-content: center;
+  gap: 5px;
+}
+.iconContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
